@@ -1,6 +1,6 @@
 // V1.15：只使用 LINE 驗證回傳的 sub，不讀取客戶端自報的 user ID。
-const LINE_CHANNEL_ID = 'YOUR_LINE_CHANNEL_ID';
-const SUPABASE_URL = 'https://YOUR_PROJECT_REF.supabase.co';
+const LINE_CHANNEL_ID = '2012537369';
+const SUPABASE_URL = 'https://semdrsibsmkyafgaoqie.supabase.co';
 const LINE_ISSUER = 'https://access.line.me';
 const UUID = /^[0-9a-f]{8}(?:-[0-9a-f]{4}){3}-[0-9a-f]{12}$/i;
 const BATCH_ERRORS = new Set(['INVALID_BATCH','BATCH_CONFLICT','ORDER_NOT_PAYABLE','TOTAL_CHANGED','BANK_NOT_CONFIGURED','DELIVERY_MISMATCH']);
